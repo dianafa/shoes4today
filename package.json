@@ -1,0 +1,30 @@
+{
+  "name": "shoes4today",
+  "version": "1.0.0",
+  "description": "No more problems with this hard decision!",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dianafa/shoes4today.git"
+  },
+  "keywords": [
+    "shoes",
+    "problem",
+    "women"
+  ],
+  "author": "Diana Falkowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianafa/shoes4today/issues"
+  },
+  "homepage": "https://github.com/dianafa/shoes4today",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
