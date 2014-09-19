@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  color: MyString
+  type: 
+  comfort: 1
+  image: MyString
+  last_use: 2014-09-19
+
+two:
+  color: MyString
+  type: 
+  comfort: 1
+  image: MyString
+  last_use: 2014-09-19
