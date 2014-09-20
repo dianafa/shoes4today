@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="shoes4today">
 <head>
   <title>Shoes4today</title>
   <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
@@ -31,7 +31,7 @@
   </div>
 </nav>
 
-<div class="container">
+<div ng-view class="container">
   <%= yield %>
 </div>
 
