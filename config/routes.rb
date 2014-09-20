@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'main/index'
+  get "main/index"
 
   resources :shoes
   root :to => "main#index"
