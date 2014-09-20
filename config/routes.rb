@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'main/index'
 
   resources :shoes
+  recources :main
   root :to => "main#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
