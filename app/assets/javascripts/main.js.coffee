@@ -1,8 +1,3 @@
-# This line is related to our Angular app, not to our
-# HomeCtrl specifically. This is basically how we tell
-# Angular about the existence of our application.
-@shoes4today = angular.module('shoes4today', [])
-
 #= require_self
 #= require_tree ./services/global
 #= require_tree ./services/main
