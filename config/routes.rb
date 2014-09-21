@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :items
+
   get "main/index"
 
   resources :shoes
