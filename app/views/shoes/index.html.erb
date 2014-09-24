@@ -20,7 +20,7 @@
         <td><%= shoe.color %></td>
         <td><%= shoe.comfort %></td>
         <td><%= shoe.elegant %></td>
-        <td><%= shoe.image %></td>
+        <td> <%= image_tag(shoe.image, :height => 100)%></td>
         <td><%= shoe.last_use %></td>
         <td><%= link_to 'Show', shoe %></td>
         <td><%= link_to 'Edit', edit_shoe_path(shoe) %></td>
