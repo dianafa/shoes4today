@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  resources :items
-
-  get "main/index"
-
+  resources :queries
   resources :shoes
+  resources :items
+  resources :dresses, controller: "items", type: "Dress"
+  resources :pants_n_shirts, controller: "items", type: "PantsNShirt"
   root "main#index"
 
   # The priority is based upon order of creation: first created -> highest priority.

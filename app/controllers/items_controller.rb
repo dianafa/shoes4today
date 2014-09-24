@@ -5,6 +5,8 @@ class ItemsController < ApplicationController
   # GET /items.json
   def index
     @items = Item.all
+    @dresses = Item.where(type: "Dress")
+    @pants_n_shirts = Item.where(type: "PantsNShirt")
   end
 
   # GET /items/1
@@ -28,7 +30,7 @@ class ItemsController < ApplicationController
 
     respond_to do |format|
       if @item.save
-        format.html { redirect_to @item, notice: 'Item was successfully created.' }
+        format.html { redirect_to @item, notice: "#{@item.type} was successfully created." }
         format.json { render :show, status: :created, location: @item }
       else
         format.html { render :new }
@@ -66,9 +68,16 @@ class ItemsController < ApplicationController
     def set_item
       @item = Item.find(params[:id])
     end
-
+    
+    def set_type
+      @type = type
+    end
+    
+    def type_class
+      type.constantize
+    end
     # Never trust parameters from the scary internet, only allow the white list through.
     def item_params
-      params.require(:item).permit(:name, :string, :color)
+      params.require(:item).permit(:type, :color)
     end
 end

@@ -12,12 +12,8 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :string %><br>
-    <%= f.text_field :string %>
+    <%= f.label :type %><br>
+    <%= f.select :type, Item.types %> 
   </div>
   <div class="field">
     <%= f.label :color %><br>

@@ -12,6 +12,10 @@
   <% end %>
 
   <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
     <%= f.label :color %><br>
     <%= f.text_field :color %>
   </div>
@@ -29,7 +33,7 @@
   </div>
   <div class="field">
     <%= f.label :last_use %><br>
-    <%= f.date_select :last_use %>
+    <%= f.date_field :last_use %>
   </div>
   <div class="actions">
     <%= f.submit %>
