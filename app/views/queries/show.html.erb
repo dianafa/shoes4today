@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @query.color %>
+</p>
+
+<p>
+  <strong>Elegant:</strong>
+  <%= @query.elegant %>
+</p>
+
+<%= link_to 'Edit', edit_query_path(@query) %> |
+<%= link_to 'Back', queries_path %>
