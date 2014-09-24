@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="shoes4today">
+<html lang="en" ng-app="shoes4today">
 <head>
   <title>Shoes4today</title>
   <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
@@ -7,6 +7,7 @@
   <%= stylesheet_link_tag    "application", media: "all" %>
   <%= javascript_include_tag "application", controller_name %>
   <%= csrf_meta_tags %>
+  <script src="bower_components/angular/angular.js"></script>
 </head>
 <body>
 
@@ -27,7 +28,7 @@
 	<li class="active"><a href="/queries/new">Ask me!</a></li>
         <li class="active"><a href="/shoes">Shoes</a></li>
         <li class="active"><a href="/items">Clothes</a></li>
-        <li class="active"><a href="/main/about">About me</a></li>
+        <li class="active"><a href="/pages/about">About me</a></li>
       </ul>
     </div>
   </div>
@@ -37,12 +38,18 @@
   <%= yield %>
 </div>
 
+
 <footer>
+<div ng-app="">
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+1 + 2 = {{ 1 + 2 }}
+</div>
   <div class="container">
     dianafa 2014
   </div>
 </footer>
 <script src="//railsgirls.com/assets/bootstrap.js"></script>
-
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
 </body>
 </html>

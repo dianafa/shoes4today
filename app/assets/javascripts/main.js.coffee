@@ -1,3 +1,4 @@
+@shoes4today = angular.module('shoes4today', [])
 #= require_self
 #= require_tree ./services/global
 #= require_tree ./services/main

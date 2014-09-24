@@ -12,7 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require angular
-//= require main
 //= require underscore
 //= require bootstrap
+//= require angular
+//= require main
+
+

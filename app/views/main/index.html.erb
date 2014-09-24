@@ -1,3 +1,51 @@
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="http://nafiur.com/portfolio/wp-content/uploads/2013/11/happiness-1200x500.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>New day. New shoes. Your app.</h1>
+              <p>Note: If you're viewing this page via a  URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="/queries/new" role="button">Ask about shoes 4 today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://www.theblackangle.com/wp-content/uploads/phoenix_skyline___phoenix_city_arizona1-1200x500.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Your clothes.</h1>
+              <p>Everytime you buy a new clothes- add them to your warderobe. When you'll wear them, chosing appropriate clothes will take less time! :) </p>
+              <p><a class="btn btn-lg btn-primary" href="/items" role="button">Go to wardrobe</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://theworddepot.com.au/wp-content/uploads/2014/05/fountain-pen2-1200x500.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Questions? Advices? Jokes? I want them all!</h1>
+              <p>Doesn't matter what do you want from me- write to me. Can be long. I like to read.</p>
+              <p><a class="btn btn-lg btn-primary" href="/pages/about" role="button">Write me a letter</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
 <div ng-controller="IndexCtrl">
-  <h1>{{title}}</h1>
+<p ng-view >1 + 2 = {{ 1 + 2 }}</p>
+
+<h1>{{title}}</h1>
 </div>

@@ -1,2 +1,2 @@
 @IndexCtrl = ($scope) ->
-  $scope.title = "My shoe app"
+  $scope.title = "My shoes app"
