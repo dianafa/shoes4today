@@ -7,3 +7,6 @@
 #= require_tree ./controllers/main
 #= require_tree ./directives/global
 #= require_tree ./directives/main
+
+# Creates new Angular module called 'shoes4today'
+shoes4today = angular.module('shoes4today', [])
